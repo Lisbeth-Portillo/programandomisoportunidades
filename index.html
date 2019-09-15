@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Programando mis oportunidades</title>
+    <link rel="stylesheet" href="C:\Users\TEMPORAL\Desktop\HTML\MATERIALIZE\materialize\css\materialize.min.css"> <!-- link de materialize -->
+    <link rel="stylesheet" href="venta.css"> <!-- Link para conectarlo con el CSS -->
+    <link rel="shortcut icon" href="https://abeon-hosting.com/images/mundo-tecnologico-png-1.png" /><!-- Link para el icono de la pestaña -->
+  </head>
+  <body>
+    <nav>
+      <div class="container" id="contenido">
+  <div class="nav-wrapper"> <!-- Nav  -->
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li id="inicio" ><a href="#" class="brand-logo"><img class="resposive-img"src="https://abeon-hosting.com/images/mundo-tecnologico-png-1.png" alt="Programando mis oportunidades" width="10%" height="10%"></a></li>
+      <li id="buscar"><a href="#"><input id="s" type="text" name="s" value="" placeholder="Buscar" class="search-desktop--input" required="" oninvalid="this.setCustomValidity(Ingresa una pregunta en el buscador)" oninput="this.setCustomValidity('')"></a></li>
+       <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i></a>
+      </ul>
+    <ul id="nav-mobile" class="right hide-on-med-and-down ">
+      <li ><a id="letra" href="#inicio ">INICIO</a></li>
+      <li><a id="letra" href="badges.html">PROYECTOS</a></li>
+      <li><a  id="letra"href="#quiA">¿QUÍENES SOMOS?</a></li>
+      <li><a id="letra" href="#quiA">CONTACTO</a></li>
+      <li><a id="letra" href="#quiA">AYUDA</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br>
+
+<div class="slider"> <!-- CAROUSEL -->
+			<ul>
+				<li>
+  <img src="img/img1.jpg" alt="Imagen1">
+ </li>
+				<li>
+  <img src="img/CAR3.jpg" alt="Imagen2">
+</li>
+				<li>
+  <img src="img/IBM0.jpg" alt="Imagen3" height="400px">
+</li>
+				<li>
+  <img src="img/CAR4.jpg" alt="Imagen4">
+</li>
+			</ul>
+		</div><!-- IDEA: FIN DE CAROUSEL -->
+    <a  href="producto.html"><div class="card-panel blue center-align">
+      <a class="waves-effect waves-light btn" onclick=nombre()>Nombre del usuario</a>
+      <a class="waves-effect waves-light btn" onclick=fecha()>Ingrese su fecha de nacimiento</a>
+    </div>
+    <div id="contenido" class="container">
+      <a  href="producto.html"><div class="card-panel blue center-align"><h6>Panel de control</h6></div><!-- IDEA: BANNER  --><!-- IDEA: LINK PARA VER MÁS DE ESE PRODUCTO -->
+        <div class="row">
+          <div class="col s6">
+            <div class="container">
+            <img class="resposive-img" src="img/IMG_20190501_104824.jpg" alt="Programando mis oportunidades" width="400px" height="300px">
+            </div>
+          </div>
+          <div class="col s6">
+            <div id="controles" class="container">
+    <div class="row">
+      <label for="colorFondo">Color de fondo</label>
+      <select id="colorFondo" class="btn btn-small indigo">
+        <option value="#FFFFFF">Blanco</option>
+        <option value="#9FFEF1">Azul</option>
+        <option value="#9FFECE">Verde</option>
+        <option value="#FAFE9F">Amarillo</option>
+      </select>
+    </div>
+    <div>
+      <label for="fuente">Fuente</label>
+      <select id="fuente" class="btn btn-small indigo">
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Arial">Arial</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="fuentePrimerParrafo">Fuente 1er párrafo</label>
+      <select id="fuentePrimerParrafo" class="btn btn-small indigo">
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Arial">Arial</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="primerCaracter">Primer caracter frase</label>
+      <select id="primerCaracter" class="btn btn-small indigo">
+        <option value="normal">Normal</option>
+        <option value="negrita">Negrita</option>
+      </select>
+    </div>
+
+
+
+    <div>
+      <button id="reiniciarEstilos" class="btn btn-small blue">Reiniciar estilos</button>
+    </div>
+  </div>
+          </div>
+        </div>
+      </a>
+
+
+    <a  href="producto.html"><div class="card-panel blue center-align"><h6>Programando mis oportunidades</h6></div><!-- IDEA: BANNER  --><!-- IDEA: LINK PARA VER MÁS DE ESE PRODUCTO -->
+      <div class="row">
+        <div class="col s6">
+          <div class="container">
+          <center><h4>En qué consiste el proyecto</h4></center>
+          <p>Es un proyecto en el cual Coosajo R.L está enfocado a generar autoempleo, en el cual los jovenes darán a conocer sus conocimientos y a través de los mismo ayudar a la misma comunidad a crecer</p>
+          <p>En el proyecto los alumnos emprederán y serán nuevos lideres en sus diferentes aspectos, será capacitados para ser los siguientes desarrolladores de software</p>
+          </div>
+        </div>
+        <div class="col s6">
+          <img src="img/CAR2.jpg" class="resposive-img" alt="Programando mis oportunidad" width="400px" height="300px">
+        </div>
+      </div>
+    </a>
+    <!-- FIN DE TARJETA DE PRODUCTO -->
+
+      <a href=""><div class="card-panel blue center-align"><h6>Información básica del proyecto</h6></div>
+        <div class="row">
+          <div class="container">
+          <div class="col s6">
+            <img src="img/IMG_20190501_141656.jpg" alt="Programando mis oportunidad" width="300px" height="300px">
+          </div>
+
+              <div class="col s6">
+            <center><h4>En qué consiste</h4></center>
+            <p>Es un proyecto en el cual Coosajo R.L está enfocado a generar autoempleo, en el cual los jovenes darán a conocer sus conocimientos y a través de los mismo ayudar a la misma comunidad a crecer</p>
+            <p>En el proyecto los alumnos emprederán y serán nuevos lideres en sus diferentes aspectos, será capacitados para ser los siguientes desarrolladores de software</p>
+            </div>
+          </div>
+        </div>
+      </a><!-- IDEA: BANNER  --><!-- IDEA: LINK PARA VER MÁS DE ESE PRODUCTO -->
+
+
+      <a href=""><div class="card-panel blue center-align"><h6>Temas vistos con anterioridad</h6></div>
+        <div class="row">
+          <div class="container">
+          <div class="col s4">
+            <h4>Temas vistos</h4>
+            <p>Base de datos</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JAVA</p>
+            <p>Jquery</p>
+          </div>
+          <div class="col s4">
+            <h4>Herramientas</h4>
+            <p>Atom</p>
+            <p>Wordbench</p>
+            <p>Balsamiq</p>
+            <p>Draw.io</p>
+          </div>
+          <div class="col s4">
+              <h4>Qué podemos hacer</h4>
+                <p>Realizar páginas webs</p>
+                <p>Hacer bases de datos</p>
+          </div>
+          </div>
+        </div>
+      </a><!-- IDEA: BANNER  --><!-- IDEA: LINK PARA VER MÁS DE ESE PRODUCTO -->
+      <a href=""><div class="card-panel blue center-align"><h6>Requisitos mínimos</h6></div></a>
+      <div class="row">
+        <div class="container">
+        <div class="col s4">
+        <ul>
+          <li>Tener una edad entre 15 y 24 años</li>
+          <li>Tener 3ro básico</li>
+          <li>Tener computador</li>
+          <li>Conocimientos básicos en computación</li>
+          <li>Flexibilidad de horarios</li>
+        </ul>
+        </div>
+        </div>
+        <div class="col s3">
+          <img src="img/IMG_20190506_081727.jpg" alt="Programando mis oportunidades"width="220px" height="200px">
+        </div>
+        <div class="col s3">
+          <img src="img/IMG_20190509_100157.jpg" alt="Programando mis oportunidades"width="220px" height="200px">
+        </div>
+      </div>
+      <a href=""><div class="card-panel blue center-align"><h6>Para que sirve el proyecto</h6></div></a>
+      <div class="row">
+        <div class="container">
+        <div class="col s6">
+          <img src="img/IMG_20190501_141656.jpg" alt="Programando mis oportunidad" width="300px" height="300px">
+        </div>
+
+            <div class="col s6">
+          <center><h4>En qué consiste</h4></center>
+          <p>Es un proyecto en el cual Coosajo R.L está enfocado a generar autoempleo, en el cual los jovenes darán a conocer sus conocimientos y a través de los mismo ayudar a la misma comunidad a crecer</p>
+          <p>En el proyecto los alumnos emprederán y serán nuevos lideres en sus diferentes aspectos, será capacitados para ser los siguientes desarrolladores de software</p>
+          </div>
+        </div>
+      </div>
+
+      <a href=""><div class="card-panel blue center-align"><h6>Videos relacionados</h6></div></a>
+      <div class="row">
+        <div class="container">
+        <div class="col s6">
+          <video src="img/Facebook 1745606545527955(144p).mp4" autoplay poster="posterimage.jpg" controls></video>
+        </div>
+            <div class="col s6">
+              <p>En el video mostrado el Ing.Aldana da a conocer sobre el proyecto </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <ul class="pagination center-align" id="quiA">
+  <li class="waves-effect blue"><a href="#inicio">1</a></li>
+  <li class="waves-effect blue"><a href="venta1.html">2</a></li>
+  <li class="waves-effect blue"><a href="#!">3</a></li>
+</ul>
+
+  <script type="text/javascript">
+  function nombre(){
+       var nombre = prompt("Ingrese su nombre");
+       console.log(nombre);
+      }
+      try {
+        throw "Lo que ha ingresado esta mal";
+      }
+      catch(error){
+        console.error(error);
+      }
+
+
+    function fecha(){
+      var nombre = prompt("Ingrese su fecha de nacimiento");
+      var fecha1 = 2019-nombre;
+      console.log(fecha1);
+        }
+        try {
+          throw "Lo que ha ingresado esta mal";
+        }
+        catch(error){
+          console.error(error);
+        }
+  </script>
+
+
+  <a href=""><div class="card-panel blue center-align"><h6>Panel de control</h6></div></a>
+
+  </body>
+  <footer class="page-footer cyan">
+    <div class="container">
+      <div class="row center"><!-- Fila alinead al centro -->
+        <div class="col s3 left-align"><!--Columna de 3  -->
+          <h5 class="black-text" id="mas">Conócenos</h5>
+          <ul>
+              <li><a class="white-text" href="#!">Quienes somos</a></li>
+            <li><a class="white-text" href="#!">Qué hacemos</a></li>
+            <li><a class="white-text" href="#!">A qué nos dedicamos</a></li>
+          </ul>
+        </div>
+        <div class="col s3 left-align"><!--Columna de 3  -->
+          <h5 class="black-text" id="mas">Proyectos</h5>
+          <ul>
+              <li><a class="white-text" href="#!">Sobre educación</a></li>
+            <li><a class="white-text" href="#!">Sobre comida</a></li>
+            <li><a class="white-text" href="#!">Sobre economía </a></li>
+            <li><a class="white-text" href="#!">Sobre naturaleza</a></li>
+            <li><a class="white-text" href="#!">Sobre nuevos proyectos</a></li>
+            <li><a class="white-text" href="#!">Sobre superación</a></li>
+            <li><a class="white-text" href="#!">Sobre emprendimiento  </a></li>
+          </ul>
+        </div>
+        <div class="col s3 left-align"><!--Columna de 3  -->
+          <h5 class="black-text" id="mas">Siguenos en</h5>
+          <a  href="https://www.facebook.com/"><img src="https://image.flaticon.com/icons/png/512/70/70452.png" alt="redes sociales" width="40"height="40" align="left"></a>
+          <a  href="https://twitter.com/?lang=es"><img src="https://image.flaticon.com/icons/png/512/70/70520.png" alt="redes sociales" width="40"height="40" align="left"></a>
+          <a  href="https://www.instagram.com/?hl=es-la"><img src="https://image.flaticon.com/icons/png/512/69/69366.png" alt="redes sociales"width="40"height="40" align="left"></a>
+
+        </div>
+        <div  class="col s3 left-align"><!--Columna de 3  -->
+          <h5 class="black-text" id="mas">¿Necesitas ayuda?</h5>
+          <ul>
+              <li><a class="white-text"href="#!">Tienes alguna pregunta</a></li>
+            <li><a class="white-text" href="#!">Sobre qué te gustaría informate</a></li>
+            <li><a class="white-text" href="#!">Tienes algún proyecto en mente</a></li>
+            <li><a class="white-text" href="#!">Conoce nuestros proyectos</a></li>
+            <li><a class="white-text" href="#!">Conoce nuestras sucursales</a></li>
+            <li><a class="white-text" href="#!">Quieres trabajar</a></li>
+            <li><a class="white-text" href="#!">Necesitas un prestamo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="container center">
+      <h3>Programando mis oportunidades</h3>  <br>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	  // Color de fondo
+		$(function() {
+	  $('body').change(function() {
+	    var colorDeFondo = $('#colorFondo option:selected').val();
+	    $('body').css('background-color', colorDeFondo);
+	  });
+
+  // Fuentes
+  $('body').change(function() {
+    var fuente = $('#fuente option:selected').val();
+    $('#contenido p').css('font-family', fuente);
+  });
+
+  // Fuente 1er párrafo
+  $('body').change(function() {
+    var fuentePrimerParrafo = $('body option:selected').val();
+    $('#contenido p').css('font-family', fuentePrimerParrafo);
+  });
+
+  // Primer carácter de las frases
+  // Reiniciar estilos y formulario
+	$('#reiniciarEstilos').click(function() {
+	     location.reload();
+	  });
+	});
+	</script>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
